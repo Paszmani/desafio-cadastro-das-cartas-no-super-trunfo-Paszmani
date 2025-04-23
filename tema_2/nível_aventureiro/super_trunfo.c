@@ -2,11 +2,11 @@
 
 int main() {
     int opcao;
-    char nomeCidade1[20], nomeCidade2[20], cod1[20] = "A01", cod2[20] = "A02", estado1[20], estado2[20]; 
-    int pontosTuristicos1;
-    float populacao1 = 120.000, area1 = 230.000, pib1 = 150.000, densidade1, pibPerCapta1;
-    int pontosTuristicos2;
-    float populacao2 = 200.000, area2 = 320.000, pib2 = 200.000, densidade2, pibPerCapta2;
+    char nomeCidade1[20], nomeCidade2[20], cod1[20] = "A01", cod2[20] = "B02", estado1[20], estado2[20]; 
+    int pontosTuristicos1 = 12;
+    float populacao1 = 1200.0, area1 = 2300.0, pib1 = 1500.0, densidade1, pibPerCapta1;
+    int pontosTuristicos2 = 15;
+    float populacao2 = 2000.0, area2 = 3200.0, pib2 = 2000.0, densidade2, pibPerCapta2;
     
     densidade1 = (float)populacao1 / area1; 
     densidade2 = (float)populacao2 / area2; 
