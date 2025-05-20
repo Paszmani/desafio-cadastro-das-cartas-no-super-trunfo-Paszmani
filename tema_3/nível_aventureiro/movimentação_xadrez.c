@@ -28,19 +28,16 @@ int main() {
         k++;
     } while (k < casasRainha);
 
-    // Separação do movimento do Cavalo
     printf("\nMovimento do Cavalo:\n");
     
-    // Definindo o número de movimentos do Cavalo
-    const int movimentosCavalo = 1; // Um movimento em "L"
+    const int movimentosCavalo = 1; 
     
-    // Loop aninhado para simular o movimento do Cavalo
     for (int i = 0; i < movimentosCavalo; i++) {
-        // O Cavalo se move 2 casas para baixo e 1 casa para a esquerda
-        for (int m = 0; m < 2; m++) {
-            printf("Baixo\n"); // Movimento para baixo
+        
+        for (int m = 0; m < 2; m++) { // O Cavalo se move 2 casas para baixo e 1 casa para a esquerda
+            printf("Baixo\n"); 
         }
-        printf("Esquerda\n"); // Movimento para a esquerda
+        printf("Esquerda\n"); 
     }
 
     return 0;
